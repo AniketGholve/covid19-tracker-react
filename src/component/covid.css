@@ -1,0 +1,88 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(34, 33, 33);
+    color: White;
+}
+@keyframes font-zoom{
+    from{
+        font-size: 15px;
+    }
+    to{
+        font-size: 20px;
+    }
+}
+.live{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    animation: font-zoom 3s;
+    animation-iteration-count: infinite;
+}
+.center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px;
+}
+.card-size{
+    margin:20px;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    background-color: aliceblue;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+.break{
+    flex-basis:100% ;
+    width: 0;
+    list-style: none;
+}
+h3{
+    font-size: 20px;
+}
+h2{
+    font-size: 33px;
+}
+.small-font{
+    font-size: 10px;
+    color: white;
+}
+.background-card1{
+    background-color: rgb(57, 87, 138);
+}
+.background-card2{
+    background-color: rgb(45, 118, 29);
+}
+.background-card3{
+    background-color: rgb(205, 210, 68);
+}
+.background-card4{
+    background-color: rgb(160, 66, 45);
+}
+.background-card5{
+    background-color: rgb(39, 26, 87);
+}
+.background-card6{
+    background-color: rgb(87, 87, 34);
+}
+.data{
+    font-size: 28px;
+    font-weight: 900;
+    text-shadow:10px 15px 15px rgb(23, 23, 57);
+}
+.card-size:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
